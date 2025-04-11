@@ -1,0 +1,59 @@
+.backButton {
+    background-color: #eaeaea;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .backButton:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .cursoTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .cursoEstudiantesCount {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  .estudiantesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .notFoundMessage {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .actionButton {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .actionButton:hover {
+    background-color: #0d47a1;
+  }
+  
+  @media (max-width: 768px) {
+    .estudiantesGrid {
+      grid-template-columns: 1fr;
+    }
+  }

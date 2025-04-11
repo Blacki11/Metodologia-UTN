@@ -1,0 +1,23 @@
+.estudianteCard {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .estudianteCardContent {
+    padding: 1.5rem;
+  }
+  
+  .estudianteCardName {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .estudianteCardInfo {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+  }
