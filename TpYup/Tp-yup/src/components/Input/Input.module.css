@@ -1,0 +1,19 @@
+.inputGroup {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+  
+.inputSlice{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.345);
+}  
+.labelSlice{
+    font-size: 1.2rem;
+}
+.error {
+    color: rgba(255, 0, 0, 0.525);
+    font-size: 0.8rem;
+  }
+  
